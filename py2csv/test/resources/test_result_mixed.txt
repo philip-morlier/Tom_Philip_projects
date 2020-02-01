@@ -1,0 +1,5 @@
+01/01/2020,murder,New Orleans
+01/02/2020,larceny,Portland
+01/02/2020,burglary,Chicago
+01/03/20,Loitering,Vancouver
+01/03/2020,sleep,Vegas

@@ -1,0 +1,3 @@
+{'date' : '01/01/2020', 'crime' : 'murder', 'city' : 'New Orleans'}
+{'date' : '01/02/2020', 'crime' : 'burglary', 'city' : 'Chicago'}
+{'date' : '01/03/2020', 'crime' : 'sleep', 'city' : 'Vegas'}

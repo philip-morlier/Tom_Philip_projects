@@ -1,0 +1,19 @@
+/* # Empty CSS file for your own CSS */
+h1 { 
+    font-size: 4rem;
+    font-family: "Lucida Console", Courier, monospace;
+    font-weight: bolder;
+}
+
+.button-netflix {
+    background-color: red;
+    border: red;
+}
+.button-germs {
+    background-color: green;
+    border: green;
+}
+.button-guns {
+    background-color: gray;
+    border: grey;
+}

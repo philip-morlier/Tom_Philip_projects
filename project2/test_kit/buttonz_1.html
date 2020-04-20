@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript Redirect a Page onClick Event</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" >
+        function aa()
+        {
+            var YourArray = ['United States', 'Canada', 'Argentina', 'Armenia'];
+            var ObjUl = $('<ul></ul>');
+            for (i = 0; i < YourArray.length; i++)
+            {
+                var Objli = $('<li></li>');
+                var Obja = $('<a></a>');
+
+                ObjUl.addClass("ui-menu-item");
+                ObjUl.attr("role", "menuitem");
+
+                Obja.addClass("ui-all");
+                Obja.attr("tabindex", "-1");
+
+                Obja.text(YourArray[i]);
+                Objli.append(Obja);
+
+                ObjUl.append(Objli);
+            }
+            $('.DivSai').append(ObjUl);
+        }
+    </script>
+</head>
+<body onload="aa()">
+    <form id="form1" runat="server">
+    <div class="DivSai" >
+
+    </div>
+    </form>
+</body>
